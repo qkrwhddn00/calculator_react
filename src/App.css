@@ -1,0 +1,29 @@
+.calculate {
+  background-color:rgb(51, 51, 51);
+  display: flex;
+  justify-content: center;
+}
+.calculator {
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  
+}
+.calc_buttons {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.result_box {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding: 0;
+}
+.calc_buttons button {
+  height: 50px;
+}
+.last_button {
+  grid-column: 3/5 ;
+}
